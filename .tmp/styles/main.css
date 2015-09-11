@@ -1,0 +1,12 @@
+.img-container {
+  position: relative;
+}
+
+.overlay {
+  opacity: .7;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}

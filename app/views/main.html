@@ -1,5 +1,9 @@
-<h2 class="page-heading" style="text-align: center">Where do you want to search for apartments?</h3>
+<h1 class="page-heading jumbotron text-center">Where do you want to search for apartments?</h1>
 <div ng-repeat="city in cities">
-  <div><img ng-src="{{ city.image }}" /></div>
-  <div><h3>{{ city.name }}</h3></div>
+  <div class="row">
+    <div class="col-md-7 img-container">
+      <img class="img-responsive center-block" ng-src="{{ city.image }}" />
+      <div class="overlay text-center text-uppercase"><h2><span class="label label-default">{{ city.name }}</span></h2></div>
+    </div>
+  </div>
 </div>
