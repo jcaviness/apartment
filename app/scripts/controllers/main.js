@@ -12,7 +12,7 @@ angular.module('zyringApp')
     $scope.cities = [
       {
         name : 'Seattle',
-        image : 'images/seattle-fog.gif'
+        image : 'images/seattle.gif'
       },
       {
         name : 'Tacoma',
@@ -28,7 +28,7 @@ angular.module('zyringApp')
       },
       {
         name : 'Kirkland',
-        image : 'images/kirkland.jpg'
+        image : 'images/kirkland.JPG'
       },
       {
         name : 'Olympia',
